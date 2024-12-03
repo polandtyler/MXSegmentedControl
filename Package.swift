@@ -14,5 +14,5 @@ let package = Package(
             path: "MXSegmentedControl"
         )
     ],
-    swiftLanguageModes: [.v5,.v4_2,.v6]
+    swiftLanguageModes: [.v5,.v4_2]
 )
