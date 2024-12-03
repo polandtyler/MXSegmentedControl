@@ -1,9 +1,9 @@
-// swift-tools-version:5.0
+// swift-tools-version:6.0
 import PackageDescription
 
 let package = Package(
     name: "MXSegmentedControl",
-    platforms: [.iOS(.v8)],
+    platforms: [.iOS(.v12)],
     products: [
         .library(name: "MXSegmentedControl",
                  targets: ["MXSegmentedControl"])
@@ -14,5 +14,5 @@ let package = Package(
             path: "MXSegmentedControl"
         )
     ],
-    swiftLanguageVersions: [.v5,.v4_2]
+    swiftLanguageModes: [.v5,.v4_2,.v6]
 )
